@@ -1,0 +1,28 @@
+body {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: red;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parrafo{
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}
+#parrafoInferior{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
+p::first-letter{
+    font-size: 200%;
+    color: red;
+}

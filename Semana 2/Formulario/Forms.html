@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer form</title>
+</head>
+<body>
+    <form action="https://otroservidor.com">
+        <!--Caja para completar-->
+        <label for="nombre">Nombre </label>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <br/>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" placeholder="Apellido">
+
+        <!--Para cajita texto marcar-->
+        <br/>
+        <input type="checkbox" id="vehiculo1" name="bicicleta" value="bicicleta">
+        <label for="vehiculo1">Bicicleta</label>
+
+        <input type="checkbox" id="vehiculo1" name="bicicleta" value="Auto">
+        <label for="vehiculo1">Automovil</label>
+
+        <input type="checkbox" id="vehiculo1" name="bicicleta" value="moto">
+        <label for="vehiculo1">Motocicleta </label>
+        <br/><br/>
+
+        <!--Bolita para elegir en formulario-->
+        <label for="radio1">Genero:</label>
+        <input type="radio" id="radio1" name="genero" value="masculino"> Maculino
+        <input type="radio" id="radio1
+        " name="genero" value="femenino"> Femenino
+        <input type="radio" id="radio1" name="genero" value="Otro"> Otro
+      
+         <!--Caja de texto para elejir opciones-->
+        <br/><br/>
+        <select name="pais">
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">chile</option>
+        </select>
+
+         <!--Caja de boton-->
+         <br/><br/>
+         <input type="submit" value="Enviar"/>
+
+    </form>
+</body>
+</html>

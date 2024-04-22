@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <script>
+        function cambiarImagen(){
+            const imagen = document.getElementById("imagen").src;
+            if(imagen === "file:///C:/Users/Pablo/OneDrive/Escritorio/HTML/JavaScript/Ejercicio%204/imagen%201.png")
+                document.getElementById("imagen").src = "imagen 2.jpeg";
+            else {
+                document.getElementById("imagen").src = "imagen 1.png";
+
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Mi titulo</h1>
+    <img src="imagen 1.png" alt="superman" id="imagen">
+    <br/><br/>
+    <button onclick='cambiarImagen();'>
+        CLICK!
+    </button>
+    <!--Para que la imagen desaparezca-->
+    <button onclick='document.getElementById("imagen").style.display = "none"'>
+        ESCONDER
+    </button>
+    <!--Para que la imagen se muestre-->
+    <button onclick='document.getElementById("imagen").style.display = "block"'>
+        MOSTRAR 
+    </button>
+    
+</body>
+</html>
